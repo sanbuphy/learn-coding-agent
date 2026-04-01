@@ -5,7 +5,7 @@
 > 从 npm 包 `@anthropic-ai/claude-code` **2.1.88** 版本中提取。
 > 发布的包只有一个打包后的 `cli.js`（~12MB）。本仓库的 `src/` 目录包含从 npm 包中解包的 **TypeScript 源码**。
 
-**语言**: [English](README.md) | **中文** | [한국어](README_KR.md) | [日本語](README_JA.md)
+**语言**: [English](README.md) | **中文** | [한국어](README_KR.md) | [日本語](README_JA.md) | [Spanish](README_ES.md)
 
 ---
 
@@ -164,9 +164,10 @@ docs/
 ```
 
   Bun 的 `feature()` 是**编译时内建函数**：
-  - 在 Anthropic 内部构建中返回 `true` → 代码保留在 bundle 中
-  - 在发布构建中返回 `false` → 代码被死代码消除
-  - 108 个模块在已发布的制品中根本不存在
+
+- 在 Anthropic 内部构建中返回 `true` → 代码保留在 bundle 中
+- 在发布构建中返回 `false` → 代码被死代码消除
+- 108 个模块在已发布的制品中根本不存在
 
 ---
 

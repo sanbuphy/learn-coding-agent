@@ -5,7 +5,7 @@
 > npmパッケージ `@anthropic-ai/claude-code` **2.1.88** バージョンから抽出。
 > 配布パッケージはバンドルされた単一の `cli.js`（約12MB）のみを含む。本リポジトリの `src/` ディレクトリにはnpmターボールから抽出した**バンドル前のTypeScriptソース**が格納されている。
 
-**言語**: [English](README.md) | [中文](README_CN.md) | [한국어](README_KR.md) | **日本語**
+**言語**: [English](README.md) | [中文](README_CN.md) | [한국어](README_KR.md) | **日本語** | [Spanish](README_ES.md)
 
 ---
 
@@ -178,9 +178,10 @@ npmパッケージにソースファイルが一切ないモジュール。Anthr
 ```
 
   Bunの `feature()` は**コンパイル時組込関数**:
-  - Anthropic内部ビルドで `true` 返却 → コードがバンドルに含まれる
-  - 配布ビルドで `false` 返却 → デッドコード除去
-  - 108モジュールが配布アーティファクトに存在しない
+
+- Anthropic内部ビルドで `true` 返却 → コードがバンドルに含まれる
+- 配布ビルドで `false` 返却 → デッドコード除去
+- 108モジュールが配布アーティファクトに存在しない
 
 ---
 

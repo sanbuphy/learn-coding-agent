@@ -5,7 +5,7 @@
 > Extracted from npm package `@anthropic-ai/claude-code` version **2.1.88**.
 > The published package ships a single bundled `cli.js` (~12MB). The `src/` directory in this repo contains the **unbundled TypeScript source** extracted from the npm tarball.
 
-**Language**: **English** | [中文](README_CN.md) | [한국어](README_KR.md) | [日本語](README_JA.md)
+**Language**: **English** | [Chinese](README_CN.md) | [Korean](README_KR.md) | [Japanese](README_JA.md) | [Spanish](README_ES.md)
 
 ---
 
@@ -188,9 +188,10 @@ These are internal prompt templates and documentation, never published.
   ```
 
   Bun's `feature()` is a **compile-time intrinsic**:
-  - Returns `true` in Anthropic's internal build → code is kept in the bundle
-  - Returns `false` in the published build → code is dead-code-eliminated
-  - The 108 modules simply do not exist anywhere in the published artifact
+
+- Returns `true` in Anthropic's internal build → code is kept in the bundle
+- Returns `false` in the published build → code is dead-code-eliminated
+- The 108 modules simply do not exist anywhere in the published artifact
 
 ---
 
