@@ -912,7 +912,7 @@ Este código fuente **no es directamente compilable** solo desde este repositori
 - El `cli.js` compilado es un paquete autónomo de 12 MB que solo requiere Node.js >= 18.
 - Los mapas de origen (`cli.js.map`, 60 MB) apuntan de vuelta a estos archivos fuente para depuración.
 
-**Consulta [QUICKSTART.md](QUICKSTART.md) para instrucciones de construcción y soluciones alternativas.**
+**Consulta [QUICKSTART.md](docs/es/QUICKSTART.md) para instrucciones de construcción y soluciones alternativas.**
 
 ---
 
